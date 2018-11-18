@@ -14,9 +14,8 @@ Summary: An extensible framework to create and preprocess  design matrices. Reci
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-recipes-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-recipes-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-recipes-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-recipes-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-recipes-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-recipes-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-recipes-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-recipes-feedstock)
 
 Current release info
 ====================
