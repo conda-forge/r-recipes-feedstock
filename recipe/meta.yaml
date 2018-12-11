@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/recipes_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/recipes/recipes_{{ version }}.tar.gz
-  sha256: be468f7b9b479e13785e90d239c4784679ad7648efd3d02cfc2a58a2fb1d10ef
+  sha256: 56cbc96420e79ae07946c86d3a16a2f8fb56b29f22323c7e99621f410897912f
 
 build:
   noarch: generic
