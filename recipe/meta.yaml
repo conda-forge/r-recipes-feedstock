@@ -1,4 +1,4 @@
-{% set version = "0.1.9" %}
+{% set version = "0.1.10" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/recipes_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/recipes/recipes_{{ version }}.tar.gz
-  sha256: d57ac0c69e8cc7feba90512123dcc2ae97c6c8a27475b8ca3615eb818a9ab6ba
+  sha256: 4f345e31568e41b3efb6c6333e8ccab032e293dbd0256299d922fe6c9532c985
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -66,13 +66,11 @@ test:
 about:
   home: https://github.com/tidymodels/recipes
   license: GPL-2
-  summary: 'An extensible framework to create and preprocess  design matrices. Recipes consist
-    of one or more data manipulation  and analysis "steps". Statistical parameters for
-    the steps can  be estimated from an initial data set and then applied to  other
-    data sets. The resulting design matrices can then be used  as inputs into statistical
-    or machine learning models. '
+  summary: 'An extensible framework to create and preprocess  design matrices. Recipes consist of one or more data manipulation  and analysis "steps". Statistical
+    parameters for the steps can  be estimated from an initial data set and then applied to  other data sets. The resulting design matrices can then be used  as inputs
+    into statistical or machine learning models. '
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
