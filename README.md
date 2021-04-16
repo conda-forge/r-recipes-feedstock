@@ -3,7 +3,7 @@ About r-recipes
 
 Home: https://github.com/tidymodels/recipes
 
-Package license: GPL-2
+Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-recipes-feedstock/blob/master/LICENSE.txt)
 
