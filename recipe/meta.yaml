@@ -23,39 +23,48 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-matrix
     - r-dplyr
-    - r-generics
+    - r-ellipsis
+    - r-generics >=0.1.0.9000
     - r-glue
     - r-gower
-    - r-ipred
+    - r-hardhat >=0.1.6.9001
+    - r-ipred >=0.9_12
+    - r-lifecycle
     - r-lubridate
     - r-magrittr
     - r-purrr >=0.2.3
     - r-rlang >=0.4.0
     - r-tibble
-    - r-tidyr
-    - r-tidyselect >=0.2.5
+    - r-tidyr >=1.0.0
+    - r-tidyselect >=1.1.0
     - r-timedate
+    - r-vctrs
     - r-withr
   run:
     - r-base
     - r-matrix
     - r-dplyr
-    - r-generics
+    - r-ellipsis
+    - r-generics >=0.1.0.9000
     - r-glue
     - r-gower
-    - r-ipred
+    - r-hardhat >=0.1.6.9001
+    - r-ipred >=0.9_12
+    - r-lifecycle
     - r-lubridate
     - r-magrittr
     - r-purrr >=0.2.3
     - r-rlang >=0.4.0
     - r-tibble
-    - r-tidyr
-    - r-tidyselect >=0.2.5
+    - r-tidyr >=1.0.0
+    - r-tidyselect >=1.1.0
     - r-timedate
+    - r-vctrs
     - r-withr
 
 test:
