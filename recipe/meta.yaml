@@ -27,44 +27,48 @@ requirements:
   host:
     - r-base
     - r-matrix
+    - r-cli
+    - r-clock >=0.6.1
     - r-dplyr
     - r-ellipsis
-    - r-generics >=0.1.0.9000
+    - r-generics >=0.1.2
     - r-glue
     - r-gower
-    - r-hardhat >=0.1.6.9001
+    - r-hardhat >=1.2.0
     - r-ipred >=0.9_12
-    - r-lifecycle
-    - r-lubridate
+    - r-lifecycle >=1.0.3
+    - r-lubridate >=1.8.0
     - r-magrittr
     - r-purrr >=0.2.3
-    - r-rlang >=0.4.0
+    - r-rlang >=1.0.3
     - r-tibble
     - r-tidyr >=1.0.0
-    - r-tidyselect >=1.1.0
+    - r-tidyselect >=1.2.0
     - r-timedate
-    - r-vctrs
+    - r-vctrs >=0.5.0
     - r-withr
   run:
     - r-base
     - r-matrix
+    - r-cli
+    - r-clock >=0.6.1
     - r-dplyr
     - r-ellipsis
-    - r-generics >=0.1.0.9000
+    - r-generics >=0.1.2
     - r-glue
     - r-gower
-    - r-hardhat >=0.1.6.9001
+    - r-hardhat >=1.2.0
     - r-ipred >=0.9_12
-    - r-lifecycle
-    - r-lubridate
+    - r-lifecycle >=1.0.3
+    - r-lubridate >=1.8.0
     - r-magrittr
     - r-purrr >=0.2.3
-    - r-rlang >=0.4.0
+    - r-rlang >=1.0.3
     - r-tibble
     - r-tidyr >=1.0.0
-    - r-tidyselect >=1.1.0
+    - r-tidyselect >=1.2.0
     - r-timedate
-    - r-vctrs
+    - r-vctrs >=0.5.0
     - r-withr
 
 test:
