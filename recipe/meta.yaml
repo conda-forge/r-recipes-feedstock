@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/recipes_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/recipes/recipes_{{ version }}.tar.gz
-  sha256: 1a7b5a9a2946fa34599935b6d93101ec559d8a901d49cc691972c75df8d5670e
+  sha256: 0ffeab49b815e937ba581631641de1ed28df4332757ed3ff2cacb6226590275e
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -27,44 +27,48 @@ requirements:
   host:
     - r-base
     - r-matrix
+    - r-cli
+    - r-clock >=0.6.1
     - r-dplyr
     - r-ellipsis
-    - r-generics >=0.1.0.9000
+    - r-generics >=0.1.2
     - r-glue
     - r-gower
-    - r-hardhat >=0.1.6.9001
+    - r-hardhat >=1.2.0
     - r-ipred >=0.9_12
-    - r-lifecycle
-    - r-lubridate
+    - r-lifecycle >=1.0.3
+    - r-lubridate >=1.8.0
     - r-magrittr
     - r-purrr >=0.2.3
-    - r-rlang >=0.4.0
+    - r-rlang >=1.0.3
     - r-tibble
     - r-tidyr >=1.0.0
-    - r-tidyselect >=1.1.0
+    - r-tidyselect >=1.2.0
     - r-timedate
-    - r-vctrs
+    - r-vctrs >=0.5.0
     - r-withr
   run:
     - r-base
     - r-matrix
+    - r-cli
+    - r-clock >=0.6.1
     - r-dplyr
     - r-ellipsis
-    - r-generics >=0.1.0.9000
+    - r-generics >=0.1.2
     - r-glue
     - r-gower
-    - r-hardhat >=0.1.6.9001
+    - r-hardhat >=1.2.0
     - r-ipred >=0.9_12
-    - r-lifecycle
-    - r-lubridate
+    - r-lifecycle >=1.0.3
+    - r-lubridate >=1.8.0
     - r-magrittr
     - r-purrr >=0.2.3
-    - r-rlang >=0.4.0
+    - r-rlang >=1.0.3
     - r-tibble
     - r-tidyr >=1.0.0
-    - r-tidyselect >=1.1.0
+    - r-tidyselect >=1.2.0
     - r-timedate
-    - r-vctrs
+    - r-vctrs >=0.5.0
     - r-withr
 
 test:
