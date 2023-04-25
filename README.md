@@ -1,11 +1,11 @@
-About r-recipes
-===============
+About r-recipes-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-recipes-feedstock/blob/main/LICENSE.txt)
 
 Home: https://recipes.tidymodels.org
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-recipes-feedstock/blob/main/LICENSE.txt)
 
 Summary: An extensible framework to create and preprocess  design matrices. Recipes consist of one or more data manipulation  and analysis "steps". Statistical parameters for the steps can  be estimated from an initial data set and then applied to  other data sets. The resulting design matrices can then be used  as inputs into statistical or machine learning models. 
 
