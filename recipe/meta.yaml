@@ -1,4 +1,4 @@
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/recipes_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/recipes/recipes_{{ version }}.tar.gz
-  sha256: 64ae7f8163e0b31c2b7963a3503c602bab8ecf1b2d9e5978701be6d6b7c851c6
+  sha256: d3d20824b36e1195ed072b632c3be89714c335f56c0a2e942386fdadcd78a00d
 
 build:
   merge_build_host: true  # [win]
