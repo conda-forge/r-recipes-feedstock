@@ -1,6 +1,5 @@
 {% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-recipes
@@ -13,8 +12,7 @@ source:
   sha256: c5dc8876bc680272812bbb4be39a29464c42a7b773f8cc6d07ac4145f830206d
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
