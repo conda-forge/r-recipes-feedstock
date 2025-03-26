@@ -1,4 +1,4 @@
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/recipes_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/recipes/recipes_{{ version }}.tar.gz
-  sha256: 05d3d33b52a0402668cc93645762e2b8c899212d793c85a121eb5d394af62914
+  sha256: 464da24f48e411dee59737473cf04da276bbebc6d8b3f1e9da7db452fa1a1e43
 
 build:
   number: 0
