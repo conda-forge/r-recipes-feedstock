@@ -24,21 +24,21 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-matrix
     - r-cli
     - r-clock >=0.6.1
-    - r-dplyr
-    - r-ellipsis
+    - r-dplyr >=1.1.0
     - r-generics >=0.1.2
     - r-glue
     - r-gower
-    - r-hardhat >=1.2.0
+    - r-hardhat >=1.4.1
     - r-ipred >=0.9_12
     - r-lifecycle >=1.0.3
     - r-lubridate >=1.8.0
     - r-magrittr
-    - r-matrix
-    - r-purrr >=0.2.3
-    - r-rlang >=1.0.3
+    - r-purrr >=1.0.0
+    - r-rlang >=1.1.0
+    - r-sparsevctrs >=0.3.0
     - r-tibble
     - r-tidyr >=1.0.0
     - r-tidyselect >=1.2.0
@@ -47,21 +47,21 @@ requirements:
     - r-withr
   run:
     - r-base
+    - r-matrix
     - r-cli
     - r-clock >=0.6.1
-    - r-dplyr
-    - r-ellipsis
+    - r-dplyr >=1.1.0
     - r-generics >=0.1.2
     - r-glue
     - r-gower
-    - r-hardhat >=1.2.0
+    - r-hardhat >=1.4.1
     - r-ipred >=0.9_12
     - r-lifecycle >=1.0.3
     - r-lubridate >=1.8.0
     - r-magrittr
-    - r-matrix
-    - r-purrr >=0.2.3
-    - r-rlang >=1.0.3
+    - r-purrr >=1.0.0
+    - r-rlang >=1.1.0
+    - r-sparsevctrs >=0.3.0
     - r-tibble
     - r-tidyr >=1.0.0
     - r-tidyselect >=1.2.0
